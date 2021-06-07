@@ -1,0 +1,36 @@
+{
+  "name": "promise-tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vbguard/promise-tdd.git"
+  },
+  "keywords": [
+    "jest",
+    "promise",
+    "tdd",
+    "javascript"
+  ],
+  "author": "Viktor Bulvarenko <viktor@bulvarenko.pw>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vbguard/promise-tdd/issues"
+  },
+  "homepage": "https://github.com/vbguard/promise-tdd#readme",
+  "devDependencies": {
+    "jest": "^27.0.4"
+  },
+  "jest": {
+    "verbose": true,
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!**/vendor/**"
+    ]
+  }
+}
